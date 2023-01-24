@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body,html {
+    background: linear-gradient(45deg, rgb(7, 12, 27), rgb(15, 27, 65));
+}
+
+.all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 120px;
+    padding: 40px 0;
+}
+
+.login-container_disabled {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.5);
+}
+.login-container {
+    transition: ease 1s;
+}
+
+.form-container {
+    background-color: rgb(29, 47, 107);
+    border-radius: 10px;
+    box-shadow: 13px 20px 20px 0 rgba(0, 0, 0, 0.219);
+    padding: 24px 28px;
+    width: 300px;
+}
+
+.login-title {
+    font-size: 34px;
+    text-align: center;
+    color: #f8f8f8;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.name-label {
+    font-weight: 400;
+    color: #f8f8f8;
+    letter-spacing: 2px;
+}
+.pass-label {
+    font-weight: 400;
+    color: #f8f8f8;
+    letter-spacing: 2px;
+}
+.username-input {
+    margin-bottom: 20px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: none;
+    text-indent: 8px;
+    padding: 10px 0;
+    transition: ease 300ms;
+}
+.username-input:focus {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.password-input {
+    margin-bottom: 20px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: none;
+    text-indent: 8px;
+    padding: 10px 0;
+    transition: ease 300ms;
+}
+.password-input:focus {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-btn {
+    padding: 10px 0;
+    color: #f8f8f8;
+    background-color: rgb(15, 27, 65);
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease 200ms;
+}
+.login-btn:hover {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+.singUp-container_disabled {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.5);
+}
+
+.singUp-container {
+    transition: ease 1s;
+}
+
+.form2-container {
+    background-color: rgb(29, 47, 107);
+    border-radius: 10px;
+    box-shadow: 13px 20px 20px 0 rgba(0, 0, 0, 0.219);
+    padding: 24px 28px;
+    width: 300px;
+}
+
+.singUp-title {
+    font-size: 34px;
+    text-align: center;
+    color: #f8f8f8;
+}
+
+.singUp-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.name2-label {
+    font-weight: 400;
+    color: #f8f8f8;
+    letter-spacing: 2px;
+}
+.pass2-label {
+    font-weight: 400;
+    color: #f8f8f8;
+    letter-spacing: 2px;
+}
+.username2-input {
+    margin-bottom: 20px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: none;
+    text-indent: 8px;
+    padding: 10px 0;
+    transition: ease 300ms;
+}
+.username2-input:focus {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.password2-input {
+    margin-bottom: 20px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: none;
+    text-indent: 8px;
+    padding: 10px 0;
+    transition: ease 300ms;
+}
+.password2-input:focus {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.singUp-btn {
+    padding: 10px 0;
+    color: #f8f8f8;
+    background-color: rgb(15, 27, 65);
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease 200ms;
+}
+.singUp-btn:hover {
+    margin-left: 20px;
+    margin-right: 20px;
+}
