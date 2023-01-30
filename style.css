@@ -16,6 +16,7 @@ body,html {
     justify-content: center;
     gap: 120px;
     padding: 40px 0;
+    height: 100vh;
 }
 
 .login-container_disabled {
