@@ -8,6 +8,7 @@
 
 body,html {
     background: linear-gradient(45deg, rgb(7, 12, 27), rgb(15, 27, 65));
+    height: 100vh;
 }
 
 .all {
@@ -16,7 +17,6 @@ body,html {
     justify-content: center;
     gap: 120px;
     padding: 40px 0;
-    height: 100vh;
 }
 
 .login-container_disabled {
