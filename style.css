@@ -8,16 +8,18 @@
 
 body,html {
     background: linear-gradient(45deg, rgb(7, 12, 27), rgb(15, 27, 65));
-    height: 100vh;
 }
 
 .all {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 120px;
-    padding: 40px 0;
+    width: 100%;
+    height: 100vh;
 }
+
+/* Log In CSS */
 
 .login-container_disabled {
     opacity: 0;
@@ -25,7 +27,7 @@ body,html {
     transform: scale(0.5);
 }
 .login-container {
-    transition: ease 1s;
+    transition: ease 400ms;
 }
 
 .form-container {
@@ -66,6 +68,7 @@ body,html {
     text-indent: 8px;
     padding: 10px 0;
     transition: ease 300ms;
+    outline: none;
 }
 .username-input:focus {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
@@ -78,6 +81,7 @@ body,html {
     text-indent: 8px;
     padding: 10px 0;
     transition: ease 300ms;
+    outline: none;
 }
 .password-input:focus {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
@@ -93,12 +97,14 @@ body,html {
     border-radius: 10px;
     cursor: pointer;
     transition: ease 200ms;
+    outline: none;
 }
 .login-btn:hover {
     margin-left: 20px;
     margin-right: 20px;
 }
 
+/* Sing Up Form CSS */
 
 
 .singUp-container_disabled {
@@ -108,7 +114,8 @@ body,html {
 }
 
 .singUp-container {
-    transition: ease 1s;
+    transition: ease 400ms;
+    position: absolute;
 }
 
 .form2-container {
@@ -149,6 +156,7 @@ body,html {
     text-indent: 8px;
     padding: 10px 0;
     transition: ease 300ms;
+    outline: none;
 }
 .username2-input:focus {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
@@ -161,6 +169,7 @@ body,html {
     text-indent: 8px;
     padding: 10px 0;
     transition: ease 300ms;
+    outline: none;
 }
 .password2-input:focus {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
@@ -176,8 +185,8 @@ body,html {
     border-radius: 10px;
     cursor: pointer;
     transition: ease 200ms;
+    outline: none;
 }
 .singUp-btn:hover {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0 20px;
 }

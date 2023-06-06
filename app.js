@@ -22,7 +22,7 @@ button.addEventListener('click', (e) => {
     e.preventDefault()
     if(userInput.value === "" && passInput.value === "") {
         error.innerHTML = 'You must fill in the fields to log in'
-    } else if(userInput.value === "Admin@mail.com" && passInput.value === "adminPassword") {
+    } else if(userInput.value !== "" && passInput.value !== "") {
         error.innerHTML = 'You are logged in correctly'
     } else {
         error.innerHTML = 'The Email or Password is not correct'
@@ -42,7 +42,7 @@ button2.addEventListener('click', (e) => {
     e.preventDefault()
     if(userInput2.value === "" && passInput2.value === "") {
         error2.innerHTML = 'You must fill in the fields to log in'
-    } else if(userInput.value === "Admin@mail.com" && passInput.value === "adminPassword") {
+    } else if(userInput.value !== "" && passInput.value !== "") {
         error2.innerHTML = 'You are registered correctly'
     }
 })
